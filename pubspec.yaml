@@ -1,0 +1,39 @@
+name: amazon_clone
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  provider: ^6.0.2
+  shared_preferences: ^2.0.13
+  badges: ^2.0.2
+  carousel_slider: ^4.1.1
+  dotted_border: ^2.0.0+2
+  file_picker: ^4.5.1
+  cloudinary_public: ^0.11.0
+  flutter_rating_bar: ^4.0.0
+  pay: ^1.0.8
+  intl: ^0.17.0
+  charts_flutter: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/applepay.json
+    - assets/gpay.json
